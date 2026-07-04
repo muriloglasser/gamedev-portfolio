@@ -7,11 +7,11 @@
     width: 100%;
     height: 100%;
     overflow: hidden;
-   /* background-image: url('Images/Header444.gif');
+    /* background-image: url('Images/Header444.gif');
     background-repeat: repeat;
     background-size: 2000px;
     background-position: center;*/
-   background-color:rgba(0,0,0,1);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 /* Modal content styling */
@@ -19,17 +19,17 @@
     color: black;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 55%;
     transform: translate(-50%, -50%);
     border-radius: 27px;
-    border: 2px solid rgba(255, 255, 255, 0.9);
+    border: 2px solid rgb(255, 0, 0);
     overflow-y: auto;
     padding-top: 2px;
     padding-right: 20px;
     padding-left: 19px;
     padding: 1000px;
-    box-shadow: 0 2px 10px rgba(255, 255, 255, 0.3);
-    background-color: #0B0011;
+    box-shadow: 0 2px 10px rgba(255, 0, 0, 0.3);
+
     background-image: url('Images/always-grey.png');
     background-repeat: repeat;
     background-size: 45px;
@@ -44,7 +44,7 @@
     margin-top: 35px;
     background-color: #a0a0a0;
     line-height: 1;
-    background-color: rgba(24,21,27,0.2);
+    background-color: rgba(24, 21, 27, 0.2);
     border: 3px solid #ffffff;
     border-radius: 27px;
     border-bottom-left-radius: 0;
@@ -53,30 +53,36 @@
 }
 
 /* Project title styling */
-.project-title {
+/* .project-title {
     color: #ffffff;
     font-size: 30px;
-}
+} */
 
 /* Project video styling */
 .project-video {
     max-width: 100%;
+
 }
 
+
+
 .project-video-BG {
-    max-width: 100%;
+    max-width: 70%;
     max-height: 100%;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0);
     padding-top: 50px;
     margin-top: -50px;
 }
 
-    /* Make YouTube videos responsive */
+/* Make YouTube videos responsive */
 .project-video iframe {
     margin-bottom: 13px;
-    max-height: 70vh;
-    border: 3px solid #ffffff;
+    max-width: 56.25vh;
+    max-height: 100vh;
+    border: 6px solid #000000;
+    border-radius: 27px;
     box-shadow: 0 2px 10px rgba(255, 255, 255, 0.3);
+    overflow: hidden;
 }
 
 /* Description background styling */
@@ -88,7 +94,7 @@
     margin-top: -19px;
     padding-top: 25px;
     padding-bottom: 1px;
-    background-color: rgba(24,21,27,0.2);
+    background-color: rgba(24, 21, 27, 0.2);
     box-shadow: 0 2px 10px rgba(255, 255, 255, 0.3);
 }
 
@@ -112,7 +118,7 @@
     margin: 10px 0;
     margin-top: -0px;
     margin-bottom: 35px;
-    background-color: rgba(24,21,27,0.2);
+    background-color: rgba(24, 21, 27, 0.2);
     color: #ffffff;
     padding-top: -25px;
     padding-bottom: 24px;
@@ -124,7 +130,7 @@
     border: 3px solid #ffffff;
     border-radius: 27px;
     width: 100%;
-    background-color: rgba(24,21,27,0.2);
+    background-color: rgba(24, 21, 27, 0.101);
     color: #ffffff;
     font-size: 50px;
     cursor: pointer;
@@ -149,7 +155,8 @@
         border-radius: 27px;
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
-        margin-right: -4.5px; /* Ajuste a quantidade de pixels conforme necessário */
+        margin-right: -4.5px;
+        /* Ajuste a quantidade de pixels conforme necessï¿½rio */
         margin-top: 3px;
     }
 
@@ -161,17 +168,19 @@
         padding-top: 15px;
         padding-bottom: 15px;
         border-radius: 27px;
-        width: 80%;
-        max-height: 90%;
+        width: 100%;
+        max-width: none;
+        max-height: none;
         text-align: center;
         padding: 1000px;
     }
 
     .project-video iframe {
-        margin-right: -4.5px; /* Ajuste a quantidade de pixels conforme necessário */
+        margin-right: -4.5px;
+        /* Ajuste a quantidade de pixels conforme necessï¿½rio */
         margin-top: -50px;
-        width: 100%;
-        max-height: 30vh;
+        width: 95%;
+        max-height: auto;
     }
 
     .project-description {
@@ -186,7 +195,8 @@
         border-radius: 27px;
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
-        margin-right: -4.5px; /* Ajuste a quantidade de pixels conforme necessário */
+        margin-right: -4.5px;
+        /* Ajuste a quantidade de pixels conforme necessï¿½rio */
         margin-top: 3px;
     }
 
@@ -194,16 +204,18 @@
         padding-top: 15px;
         padding-bottom: 15px;
         border-radius: 27px;
-        width: 60%;
-        max-height: 90%;
+        width: 50%;
+
         text-align: center;
         padding: 1000px;
     }
 
     .project-video iframe {
-        margin-right: -4.5px; /* Ajuste a quantidade de pixels conforme necessário */
+        margin-right: -4.5px;
+        /* Ajuste a quantidade de pixels conforme necessï¿½rio */
         margin-top: -50px;
-        width: 100%;
+        width: 80%;
+
         max-height: 30vh;
     }
 
@@ -219,7 +231,8 @@
         border-radius: 27px;
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
-        margin-right: -4.5px; /* Ajuste a quantidade de pixels conforme necessário */
+        margin-right: -4.5px;
+        /* Ajuste a quantidade de pixels conforme necessï¿½rio */
         margin-top: 3px;
     }
 
@@ -228,10 +241,10 @@
         padding-bottom: 15px;
         border-radius: 27px;
         width: 51%;
-        max-height: 90%;
+        max-height: auto;
         text-align: center;
         padding: 1000px;
-    }  
+    }
 
 }
 
@@ -248,7 +261,8 @@
         border-radius: 27px;
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
-        margin-right: -4.5px; /* Ajuste a quantidade de pixels conforme necessário */
+        margin-right: -4.5px;
+        /* Ajuste a quantidade de pixels conforme necessï¿½rio */
         margin-top: 3px;
     }
 
@@ -267,7 +281,8 @@
     }
 
     .project-video iframe {
-        margin-right: -4.5px; /* Ajuste a quantidade de pixels conforme necessário */
+        margin-right: -4.5px;
+        /* Ajuste a quantidade de pixels conforme necessï¿½rio */
         margin-top: -50px;
         width: 100%;
         max-height: 70vh;
@@ -291,7 +306,8 @@
         border-radius: 27px;
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
-        margin-right: -4.5px; /* Ajuste a quantidade de pixels conforme necessário */
+        margin-right: -4.5px;
+        /* Ajuste a quantidade de pixels conforme necessï¿½rio */
         margin-top: 3px;
     }
 
@@ -310,7 +326,8 @@
     }
 
     .project-video iframe {
-        margin-right: -4.5px; /* Ajuste a quantidade de pixels conforme necessário */
+        margin-right: -4.5px;
+        /* Ajuste a quantidade de pixels conforme necessï¿½rio */
         margin-top: -50px;
         width: 100%;
         max-height: 70vh;
@@ -334,7 +351,8 @@
         border-radius: 27px;
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
-        margin-right: -4.5px; /* Ajuste a quantidade de pixels conforme necessário */
+        margin-right: -4.5px;
+        /* Ajuste a quantidade de pixels conforme necessï¿½rio */
         margin-top: 3px;
     }
 
@@ -353,7 +371,8 @@
     }
 
     .project-video iframe {
-        margin-right: -4.5px; /* Ajuste a quantidade de pixels conforme necessário */
+        margin-right: -4.5px;
+        /* Ajuste a quantidade de pixels conforme necessï¿½rio */
         margin-top: -50px;
         width: 100%;
         max-height: 70vh;
@@ -377,7 +396,8 @@
         border-radius: 27px;
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
-        margin-right: -4.5px; /* Ajuste a quantidade de pixels conforme necessário */
+        margin-right: -4.5px;
+        /* Ajuste a quantidade de pixels conforme necessï¿½rio */
         margin-top: 3px;
     }
 
@@ -396,9 +416,10 @@
     }
 
     .project-video iframe {
-        margin-right: -4.5px; /* Ajuste a quantidade de pixels conforme necessário */
+        margin-right: -4.5px;
+        /* Ajuste a quantidade de pixels conforme necessï¿½rio */
         margin-top: -50px;
-        width: 100%;
+        /* width: 100%; */
         max-height: 70vh;
     }
 

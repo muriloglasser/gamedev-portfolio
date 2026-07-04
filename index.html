@@ -35,14 +35,11 @@
             <div class="header-bg">
 
                 <!-- Profile Image -->
-                <div class="header-image-container" ontouchstart="changeHeaderImage('Images/Profile2.png')"
-                    ontouchend="returnHeaderImage('Images/Profile.png')">
-                    <img class="header-image" id="header-image" src="Images/Profile.png" alt="Your Photo"
-                        onmouseover="changeHeaderImage('Images/Profile2.png')"
-                        onmouseout="returnHeaderImage('Images/Profile.png')">
+                <div class="header-image-container" ontouchend="returnHeaderImage('Images/Profile.png')">
+                    <img class="header-image" id="header-image" src="Images/Profile.png" alt="Your Photo">
                 </div>
-                <h1 style="font-size: 25px; margin-top: 6px">Murilo Glasser</h1>
-                <p style="font-size: 19px; margin-top: -15px">Game Developer</p>
+                <h1 style="font-size: 25px; margin-top: 6px">Huyện</h1>
+                <p style="font-size: 19px; margin-top: -15px">Playable Ads Developer</p>
 
                 <!-- Social Icons -->
                 <div class="social-icons">
@@ -50,10 +47,10 @@
                         class="social-icon linkedin">
                         <img src="Images/Linkedin.png" alt="LinkedIn">
                     </a>
-                    <a href="https://github.com/muriloglasser" target="_blank" class="social-icon github"
+                    <!-- <a href="https://github.com/muriloglasser" target="_blank" class="social-icon github"
                         style="margin-left: 6px">
                         <img src="Images/Git.png" alt="Github">
-                    </a>
+                    </a> -->
                     <a href="https://drive.google.com/file/d/1kQqKwS1lTZCmdKRthxWydKypEUuvMk9B/view?usp=sharing"
                         target="_blank" class="social-icon cv" style="margin-left: 6px">
                         <img src="Images/CV.png" alt="CV">
@@ -65,7 +62,7 @@
                     <nav>
                         <a href="#projects">PROJECTS</a>
                         <a href="#about-me" onclick="openModalAbout('about')">ABOUT ME</a>
-                        <a href="https://linktr.ee/muriloglasser" target="_blank">CONTACT</a>
+                        <a href="https://linktr.ee/HuyenBK97" target="_blank">CONTACT</a>
                     </nav>
                 </div>
             </div>
@@ -78,255 +75,355 @@
         <section id="projects" class="projects-paralax">
 
 
+            <!-- Project 16 (Color Bus Trip) -->
+            <div class="project" ontouchstart="changeImage('project16', 'Images/color_bus_trip.png')"
+                ontouchend="returnImage('project16', 'Images/color_bus_trip.png')">
+                <img src="Images/color_bus_trip.png" id="project16"
+                    style="width: 250px; height: 250px; object-fit: cover; margin: 20px auto;"
+                    onclick="openModal('project16')">
+                <div class="project-content">
+                    <p>
+                        <span class="tag">Cocos Creator 3D</span>
+                        <span class="tag">TypeScript</span>
+                        <span class="tag">3D</span>
+                    </p>
+                    <p style="font-size:18px">
+                        <strong>Color Bus Trip</strong>
+                    </p>
+                </div>
+            </div>
+
             <!-- Project 1 -->
 
+            <div class="project" ontouchstart="changeImage('project7', 'Gifs/JP-hover.gif')"
+                ontouchend="returnImage('project7', 'Images/JP.png')">
+                <img src="Images/drink.png" id="project7"
+                    style="width: 250px; height: 250px; object-fit: cover; margin: 20px auto;"
+                    onclick="openModal('project7')">
+                <div class="project-content">
+                    <p>
+                        <span class="tag">Cocos Cretor 3D</span>
+                        <span class="tag">TypeScript</span>
+                        <span class="tag">3D</span>
+                    </p>
+                    <p style="font-size:18px">
+                        <strong>Drink Sort</strong>
+                        <!-- <div class="contributions">
+                        <strong>CONTRIBUTIONS:</strong>
+                        <br></br>
+                        <li><strong>Game Flow Programming</strong></li>
+                        <li><strong>Artistic Implementation</strong></li>fproject5
+                        <li><strong>Game Design</strong></li>
+                        <li><strong>VFX</strong></li>
 
+                    </div> -->
+                </div>
+            </div>
+            <div class="project" ontouchstart="changeImage('project15', 'Gifs/SA-hover.gif')"
+                ontouchend="returnImage('project15', 'Images/SA.png')">
+                <img src="Images/knit.png" id="project15"
+                    style="width: 250px; height: 250px; object-fit: cover; margin: 20px auto;"
+                    onclick="openModal('project15')">
+                <div class="project-content">
+                    <p>
+                        <span class="tag">Cocos Creator 3D</span>
+                        <span class="tag">TypeScript</span>
 
-
+                        <span class="tag">3D</span>
+                    </p>
+                    <p style="font-size:18px">
+                        <strong>Knit Away</strong>
+                    </p>
+                    <!-- <div class="contributions">
+                        <strong>CONTRIBUTIONS:</strong>
+                        <br></br>
+                        <li><strong>Game Flow Programming</strong></li>
+                        <li><strong>Artistic Implementation</strong></li>
+                        <li><strong>VFX</strong></li>
+                    </div> -->
+                </div>
+            </div>
+            <div class="project" ontouchstart="changeImage('project13', 'Gifs/CK-hover.gif')"
+                ontouchend="returnImage('project13', 'Images/cake.png')">
+                <img src="Images/car.png" id="project1"
+                    style="width: 250px; height: 250px; object-fit: cover; margin: 20px auto;"
+                    onclick="openModal('project13')">
+                <div class="project-content">
+                    <p>
+                        <span class="tag">Cocos Creator 3D</span>
+                        <span class="tag">TypeScript</span>
+                        <span class="tag">3D</span>
+                    </p>
+                    <p style="font-size:18px" onclick="openModal('project13')">
+                        <strong>Car Blast 3D</strong>
+                    </p>
+                </div>
+            </div>
             <div class="project" ontouchstart="changeImage('project1', 'Gifs/CK-hover.gif')"
-            ontouchend="returnImage('project1', 'Images/CK.jpg')">
-            <img src="Images/CK.jpg" id="project1" onclick="openModal('project1')"
-                onmouseover="changeImage('project1', 'Gifs/CK-hover.gif')"
-                onmouseout="returnImage('project1', 'Images/CK.jpg')">
-            <div class="project-content">
-                <p>
-                    <span class="tag">UNITY</span>
-                    <span class="tag">C#</span>
-                    <span class="tag">3D</span>
-                </p>
-                <p style="font-size:18px">
-                    <strong>Cobra Kai</strong> - 3D console fighting game project.
-                </p>
-                <div class="contributions">
-                    <strong>CONTRIBUTIONS:</strong>
-                    <br></br>
-                    <li><strong>Game Flow Programming</strong></li>
-                    <li><strong>AI Programming</strong></li>
-                    <li><strong>Game Design</strong></li>
-                    <li><strong>VFX</strong></li>
+                ontouchend="returnImage('project1', 'Images/cake.png')">
+                <img src="Images/cake.png" id="project1"
+                    style="width: 250px; height: 250px; object-fit: cover; margin: 20px auto;"
+                    onclick="openModal('project1')">
+                <div class="project-content">
+                    <p>
+                        <span class="tag">Cocos Creator 3D</span>
+                        <span class="tag">TypeScript</span>
+                        <span class="tag">3D</span>
+                    </p>
+                    <p style="font-size:18px" onclick="openModal('project1')">
+                        <strong>Cake Sort</strong>
+                    </p>
+                    <!-- <div class="contributions">
+                        <strong>CONTRIBUTIONS:</strong>
+                        <br></br>
+                        <li><strong>Game Flow Programming</strong></li>
+                        <li><strong>AI Programming</strong></li>
+                        <li><strong>Game Design</strong></li>
+                        <li><strong>VFX</strong></li>
+                    </div> -->
                 </div>
             </div>
-        </div>
-        
-        <div class="project" ontouchstart="changeImage('project12', 'Gifs/MC-hover.gif')"
-            ontouchend="returnImage('project12', 'Images/MC.jpg')">
-            <img src="Images/MC.jpg" id="project12" onclick="openModal('project12')"
-                onmouseover="changeImage('project12', 'Gifs/MC-hover.gif')"
-                onmouseout="returnImage('project12', 'Images/MC.jpg')">
-            <div class="project-content">
-                <p>
-                    <span class="tag">UNITY</span>
-                    <span class="tag">C#</span>
-                    <span class="tag">2D</span>
-                </p>
-                <p style="font-size:18px">
-                    <strong>Glitchers</strong> - 2D desktop platformer with hacking mechanics.
-                </p>
-                <div class="contributions">
-                    <strong>CONTRIBUTIONS:</strong>
-                    <br></br>
-                    <li><strong>Game Flow Programming</strong></li>
-                    <li><strong>AI Programming</strong></li>
-                    <li><strong>Artistic Implementation</strong></li>
-                    <li><strong>VFX</strong></li>
-                </div>
-            </div>
-        </div>
-        
-        <div class="project" ontouchstart="changeImage('project3', 'Gifs/FB-hover.gif')"
-            ontouchend="returnImage('project3', 'Images/FB.png')">
-            <img src="Images/FB.png" id="project3" onclick="openModal('project3')"
-                onmouseover="changeImage('project3', 'Gifs/FB-hover.gif')"
-                onmouseout="returnImage('project3', 'Images/FB.png')">
-            <div class="project-content">
-                <p>
-                    <span class="tag">UNITY</span>
-                    <span class="tag">C#</span>
-                    <span class="tag">3D</span>
-                </p>
-                <p style="font-size:18px">
-                    <strong>Food Boy</strong> - 2.5D console pizza delivery game.
-                </p>
-                <div class="contributions">
-                    <strong>CONTRIBUTIONS:</strong>
-                    <br></br>
-                    <li><strong>Game Flow Programming</strong></li>
-                    <li><strong>Artistic Implementation</strong></li>
-                    <li><strong>Game Design</strong></li>
-                    <li><strong>Level Design</strong></li>
-                    <li><strong>VFX</strong></li>
-                </div>
-            </div>
-        </div>
-        
-        <div class="project" ontouchstart="changeImage('project11', 'Gifs/LE-hover.gif')"
-            ontouchend="returnImage('project11', 'Images/LE.png')">
-            <img src="Images/LE.png" id="project11" onclick="openModal('project11')"
-                onmouseover="changeImage('project11', 'Gifs/LE-hover.gif')"
-                onmouseout="returnImage('project11', 'Images/LE.png')">
-            <div class="project-content">
-                <p>
-                    <span class="tag">UNITY</span>
-                    <span class="tag">C#</span>
-                    <span class="tag">GAMEJAM</span>
-                    <span class="tag">2D</span>
-                </p>
-                <p style="font-size:18px">
-                    <strong>Stone Tale</strong> - 2D desktop platformer with environment destruction.
-                </p>
-                <div class="contributions">
-                    <strong>CONTRIBUTIONS:</strong>
-                    <br></br>
-                    <li><strong>Game Flow Programming</strong></li>
-                    <li><strong>Artistic Implementation</strong></li>
-                    <li><strong>Game Design</strong></li>
-                    <li><strong>Level Design</strong></li>
-                    <li><strong>VFX</strong></li>
-                </div>
-            </div>
-        </div>
-        
-        <div class="project" ontouchstart="changeImage('project2', 'Gifs/MBS-hover.gif')"
-            ontouchend="returnImage('project2', 'Images/MBS.png')">
-            <img src="Images/MBS.png" id="project2" onclick="openModal('project2')"
-                onmouseover="changeImage('project2', 'Gifs/MBS-hover.gif')"
-                onmouseout="returnImage('project2', 'Images/MBS.png')">
-            <div class="project-content">
-                <p>
-                    <span class="tag">UNITY</span>
-                    <span class="tag">C#</span>
-                    <span class="tag">3D</span>
-                </p>
-                <p style="font-size:18px">
-                    <strong>Mega Button Soccer</strong> - Desktop 3D button soccer game.
-                </p>
-                <div class="contributions">
-                    <strong>CONTRIBUTIONS:</strong>
-                    <br></br>
-                    <li><strong>Game Flow Programming</strong></li>
-                    <li><strong>Artistic Implementation</strong></li>
-                    <li><strong>Game Design</strong></li>
-                    <li><strong>VFX</strong></li>
-                </div>
-            </div>
-        </div>
-        
-        <div class="project" ontouchstart="changeImage('project4', 'Gifs/JT-hover.gif')"
-            ontouchend="returnImage('project4', 'Images/JT.png')">
-            <img src="Images/JT.png" id="project4" onclick="openModal('project4')"
-                onmouseover="changeImage('project4', 'Gifs/JT-hover.gif')"
-                onmouseout="returnImage('project4', 'Images/JT.png')">
-            <div class="project-content">
-                <p>
-                    <span class="tag">UNITY</span>
-                    <span class="tag">C#</span>
-                    <span class="tag">2D</span>
-                </p>
-                <p style="font-size:18px">
-                    <strong>Joy & Toy</strong> - 2D mobile platform runner game.
-                </p>
-                <div class="contributions">
-                    <strong>CONTRIBUTIONS:</strong>
-                    <br></br>
-                    <li><strong>Game Flow Programming</strong></li>
-                    <li><strong>Artistic Implementation</strong></li>
-                    <li><strong>VFX</strong></li>
-                </div>
-            </div>
-        </div>
-        
-        <div class="project" ontouchstart="changeImage('project6', 'Gifs/TL-hover.gif')"
-            ontouchend="returnImage('project6', 'Images/TL.png')">
-            <img src="Images/TL.png" id="project6" onclick="openModal('project6')"
-                onmouseover="changeImage('project6', 'Gifs/TL-hover.gif')"
-                onmouseout="returnImage('project6', 'Images/TL.png')">
-            <div class="project-content">
-                <p>
-                    <span class="tag">UNITY</span>
-                    <span class="tag">C#</span>
-                    <span class="tag">3D</span>
-                </p>
-                <p style="font-size:18px">
-                    <strong>Trader's Life</strong> - 2D and 3D market simulation.
-                </p>
-                <div class="contributions">
-                    <strong>CONTRIBUTIONS:</strong>
-                    <br></br>
-                    <li><strong>Tutorial Programming</strong></li>
-                    <li><strong>Artistic Implementation</strong></li>
-                    <li><strong>VFX</strong></li>
-                </div>
-            </div>
-        </div>
-        
-        <div class="project" ontouchstart="changeImage('project5', 'Gifs/BQ-hover.gif')"
-            ontouchend="returnImage('project5', 'Images/BQ.png')">
-            <img src="Images/BQ.png" id="project5" onclick="openModal('project5')"
-                onmouseover="changeImage('project5', 'Gifs/BQ-hover.gif')"
-                onmouseout="returnImage('project5', 'Images/BQ.png')">
-            <div class="project-content">
-                <p>
-                    <span class="tag">UNITY</span>
-                    <span class="tag">C#</span>
-                    <span class="tag">C</span>
-                    <span class="tag">3D</span>
-                </p>
-                <p style="font-size:18px">
-                    <strong>Hot Potato</strong> - 3D party game using custom joysticks.
-                </p>
-                <div class="contributions">
-                    <strong>CONTRIBUTIONS:</strong>
-                    <br></br>
-                    <li><strong>Game Flow Programming</strong></li>
-                    <li><strong>Artistic Implementation</strong></li>
-                    <li><strong>Game Design</strong></li>
-                    <li><strong>VFX</strong></li>
-                </div>
-            </div>
-        </div>
-        
-        <div class="project" ontouchstart="changeImage('project7', 'Gifs/JP-hover.gif')"
-            ontouchend="returnImage('project7', 'Images/JP.png')">
-            <img src="Images/JP.png" id="project7" onclick="openModal('project7')"
-                onmouseover="changeImage('project7', 'Gifs/JP-hover.gif')"
-                onmouseout="returnImage('project7', 'Images/JP.png')">
-            <div class="project-content">
-                <p>
-                    <span class="tag">UNITY</span>
-                    <span class="tag">C#</span>
-                    <span class="tag">2D</span>
-                </p>
-                <p style="font-size:18px">
-                    <strong>Anitta Boss Game</strong> - 2D web game promo runner for Garena Free Fire.
-                </p>
-                <div class="contributions">
-                    <strong>CONTRIBUTIONS:</strong>
-                    <br></br>
-                    <li><strong>Game Flow Programming</strong></li>
-                    <li><strong>Artistic Implementation</strong></li>
-                    <li><strong>Game Design</strong></li>
-                    <li><strong>VFX</strong></li>
+            <div class="project" ontouchstart="changeImage('project11', 'Gifs/SA-hover.gif')"
+                ontouchend="returnImage('project11', 'Images/SA.png')">
+                <img src="Images/ST.png" id="project11"
+                    style="width: 250px; height: 250px; object-fit: cover; margin: 20px auto;"
+                    onclick="openModal('project11')">
+                <div class="project-content">
+                    <p>
+                        <span class="tag">Cocos Creator 3D</span>
+                        <span class="tag">TypeScript</span>
 
+                        <span class="tag">3D</span>
+                    </p>
+                    <p style="font-size:18px">
+                        <strong>Screw Town</strong>
+                    </p>
+                    <!-- <div class="contributions">
+                        <strong>CONTRIBUTIONS:</strong>
+                        <br></br>
+                        <li><strong>Game Flow Programming</strong></li>
+                        <li><strong>Artistic Implementation</strong></li>
+                        <li><strong>VFX</strong></li>
+                    </div> -->
                 </div>
             </div>
-        </div>
-        
+            <div class="project" ontouchstart="changeImage('project11', 'Gifs/LE-hover.gif')"
+                ontouchend="returnImage('project11', 'Images/LE.png')">
+                <img src="Images/buscrazy.jpg" id="project11"
+                    style="width: 250px; height: 250px; object-fit: cover; margin: 20px auto;"
+                    onclick="openModal('project11')">
+                <div class="project-content">
+                    <p>
+                        <span class="tag">Cocos Creator 3D</span>
+                        <span class="tag">TypeScript</span>
+                        <span class="tag">3D</span>
+                    </p>
+                    <p style="font-size:18px">
+                        <strong>Bus Crazy</strong>
+                    </p>
+                    <!-- <div class="contributions">
+                        <strong>CONTRIBUTIONS:</strong>
+                        <br></br>
+                        <li><strong>Game Flow Programming</strong></li>
+                        <li><strong>Artistic Implementation</strong></li>
+                        <li><strong>Game Design</strong></li>
+                        <li><strong>Level Design</strong></li>
+                        <li><strong>VFX</strong></li>
+                    </div> -->
+                </div>
+            </div>
+            <div class="project" ontouchstart="changeImage('project9', 'Gifs/CP-hover.gif')"
+                ontouchend="returnImage('project9', 'Images/CP.png')">
+                <img src="Images/ScrewUnlock.jpg" id="project9"
+                    style="width: 250px; height: 250px; object-fit: cover; margin: 20px auto;"
+                    onclick="openModal('project9')">
+                <div class="project-content">
+                    <p>
+                        <span class="tag">Cocos Creator 3D</span>
+                        <span class="tag">TypeScript</span>
+                        <span class="tag">3D</span>
+                    </p>
+                    <p style="font-size:18px">
+                        <strong>Screw Unlock</strong>
+                    </p>
+                    <!-- <div class="contributions">
+                        <strong>CONTRIBUTIONS:</strong>
+                        <br></br>
+                        <li><strong>Game Flow Programming</strong></li>
+                        <li><strong>Artistic Implementation</strong></li>
+                        <li><strong>VFX</strong></li>
+                    </div> -->
+                </div>
+            </div>
+
+            <div class="project" ontouchstart="changeImage('project12', 'Gifs/MC-hover.gif')"
+                ontouchend="returnImage('project12', 'Images/MC.jpg')">
+                <img src="Images/satis.jpg" id="project12"
+                    style="width: 250px; height: 250px; object-fit: cover; margin: 20px auto;"
+                    onclick="openModal('project12')">
+                <div class="project-content">
+                    <p>
+                        <span class="tag">Cocos Creator 3D</span>
+                        <span class="tag">TypeScript</span>
+                        <span class="tag">2D</span>
+                    </p>
+                    <p style="font-size:18px">
+                        <strong>Satistory: Tidy Up</strong>
+                    </p>
+                    <!-- <div class="contributions">
+                        <strong>CONTRIBUTIONS:</strong>
+                        <br></br>
+                        <li><strong>Game Flow Programming</strong></li>
+                        <li><strong>AI Programming</strong></li>
+                        <li><strong>Artistic Implementation</strong></li>
+                        <li><strong>VFX</strong></li>
+                    </div> -->
+                </div>
+            </div>
+
+            <div class="project" ontouchstart="changeImage('project3', 'Gifs/FB-hover.gif')"
+                ontouchend="returnImage('project3', 'Images/FB.png')">
+                <img src="Images/Foodie.jpg" id="project3"
+                    style="width: 250px; height: 250px; object-fit: cover; margin: 20px auto;"
+                    onclick="openModal('project3')">
+                <div class="project-content">
+                    <p>
+                        <span class="tag">Cocos Creator 3D</span>
+                        <span class="tag">TypeScript</span>
+                        <span class="tag">2D</span>
+                    </p>
+                    <p style="font-size:18px">
+                        <strong>Foodie Mania</strong>
+                    </p>
+                    <!-- <div class="contributions">
+                        <strong>CONTRIBUTIONS:</strong>
+                        <br></br>
+                        <li><strong>Game Flow Programming</strong></li>
+                        <li><strong>Artistic Implementation</strong></li>
+                        <li><strong>Game Design</strong></li>
+                        <li><strong>Level Design</strong></li>
+                        <li><strong>VFX</strong></li>
+                    </div> -->
+                </div>
+            </div>
+
+
+
+            <div class="project" ontouchstart="changeImage('project2', 'Gifs/MBS-hover.gif')"
+                ontouchend="returnImage('project2', 'Images/MBS.png')">
+                <img src="Images/block.jpg" id="project2"
+                    style="width: 250px; height: 250px; object-fit: cover; margin: 20px auto;"
+                    onclick="openModal('project2')">
+                <div class="project-content">
+                    <p>
+                        <span class="tag">Cocos Creator 3D</span>
+                        <span class="tag">TypeScript</span>
+                        <span class="tag">3D</span>
+                    </p>
+                    <p style="font-size:18px">
+                        <strong>Block Screw</strong>
+                    </p>
+                    <!-- <div class="contributions">
+                        <strong>CONTRIBUTIONS:</strong>
+                        <br></br>
+                        <li><strong>Game Flow Programming</strong></li>
+                        <li><strong>Artistic Implementation</strong></li>
+                        <li><strong>Game Design</strong></li>
+                        <li><strong>VFX</strong></li>
+                    </div> -->
+                </div>
+            </div>
+
+            <div class="project" ontouchstart="changeImage('project4', 'Gifs/JT-hover.gif')"
+                ontouchend="returnImage('project4', 'Images/JT.png')">
+                <img src="Images/hexa.jpg" id="project4"
+                    style="width: 250px; height: 250px; object-fit: cover; margin: 20px auto;"
+                    onclick="openModal('project4')">
+                <div class="project-content">
+                    <p>
+                        <span class="tag">UNITY 3D</span>
+                        <span class="tag">C#</span>
+                        <span class="tag">3D</span>
+                    </p>
+                    <p style="font-size:18px">
+                        <strong>Hexa Slinky</strong>
+                    </p>
+                    <!-- <div class="contributions">
+                        <strong>CONTRIBUTIONS:</strong>
+                        <br></br>
+                        <li><strong>Game Flow Programming</strong></li>
+                        <li><strong>Artistic Implementation</strong></li>
+                        <li><strong>VFX</strong></li>
+                    </div> -->
+                </div>
+            </div>
+
+            <div class="project" ontouchstart="changeImage('project6', 'Gifs/TL-hover.gif')"
+                ontouchend="returnImage('project6', 'Images/TL.png')">
+                <img src="Images/goodFrenzy.jpg" id="project6"
+                    style="width: 250px; height: 250px; object-fit: cover; margin: 20px auto;"
+                    onclick="openModal('project6')">
+                <div class="project-content">
+                    <p>
+                        <span class="tag">Cocos Creator 3D</span>
+                        <span class="tag">TypeScript</span>
+                        <span class="tag">2D</span>
+                    </p>
+                    <p style="font-size:18px">
+                        <strong>Goods Frenzy: Sort Puzzle</strong>
+                    </p>
+                    <!-- <div class="contributions">
+                        <strong>CONTRIBUTIONS:</strong>
+                        <br></br>
+                        <li><strong>Tutorial Programming</strong></li>
+                        <li><strong>Artistic Implementation</strong></li>
+                        <li><strong>VFX</strong></li>
+                    </div> -->
+                </div>
+            </div>
+
+            <div class="project" ontouchstart="changeImage('project5', 'Gifs/BQ-hover.gif')"
+                ontouchend="returnImage('project5', 'Images/BQ.png')">
+                <img src="Images/cooking.jpg" id="project5"
+                    style="width: 250px; height: 250px; object-fit: cover; margin: 20px auto;"
+                    onclick="openModal('project5')">
+                <div class="project-content">
+                    <p>
+                        <span class="tag">Cocos Creator</span>
+                        <span class="tag">TypeScript</span>
+                        <span class="tag">2D</span>
+                    </p>
+                    <p style="font-size:18px">
+                        <strong>Cooking Sizzle</strong>
+                    </p>
+                    <!-- <div class="contributions">
+                        <strong>CONTRIBUTIONS:</strong>
+                        <br></br>
+                        <li><strong>Game Flow Programming</strong></li>
+                        <li><strong>Artistic Implementation</strong></li>
+                        <li><strong>Game Design</strong></li>
+                        <li><strong>VFX</strong></li>
+                    </div> -->
+                </div>
+            </div>
+
+
+
             <!-- Project 11 -->
-            <div class="project" ontouchstart="changeImage('project8', 'Gifs/FF-hover.gif')"
-                ontouchend="returnImage('project8', 'Images/FF.png')">
-                <img src="Images/FF.png" id="project8" onclick="openModal('project8')"
-                    onmouseover="changeImage('project8', 'Gifs/FF-hover.gif')"
-                    onmouseout="returnImage('project8', 'Images/FF.png')">
+            <div class="project" ontouchstart="changeImage('project8', 'Gifs/FF-hover.gif')">
+                <img src="Images/coinJam.png" id="project8"
+                    style="width: 250px; height: 250px; object-fit: cover; margin: 20px auto;"
+                    onclick="openModal('project8')">
                 <div class="project-content">
                     <p>
                         <span class="tag">UNITY</span>
                         <span class="tag">C#</span>
-                        <span class="tag">2D</span>
+                        <span class="tag">3D</span>
                     </p>
                     <p style="font-size:18px">
-                        <strong>Free Fighter</strong> - 2D Unity web game, promo runner for Garena Free Fire.
+                        <strong>Coin Jam</strong>
                     </p>
-                    <div class="contributions">
+                    <!-- <div class="contributions">
                         <strong>CONTRIBUTIONS:</strong>
                         <br></br>
                         <li><strong>Game Flow Programming</strong></li>
@@ -334,64 +431,61 @@
                         <li><strong>Game Design</strong></li>
                         <li><strong>VFX</strong></li>
 
-                    </div>
+                    </div> -->
                 </div>
             </div>
 
             <!-- Project 8 -->
-            <div class="project" ontouchstart="changeImage('project9', 'Gifs/CP-hover.gif')"
-                ontouchend="returnImage('project9', 'Images/CP.png')">
-                <img src="Images/CP.png" id="project9" onclick="openModal('project9')"
-                    onmouseover="changeImage('project9', 'Gifs/CP-hover.gif')"
-                    onmouseout="returnImage('project9', 'Images/CP.png')">
-                <div class="project-content">
-                    <p>
-                        <span class="tag">UNITY</span>
-                        <span class="tag">C#</span>
-                        <span class="tag">VR</span>
-                        <!--                        <span class="tag">MOBILE</span>
-                -->
-                        <span class="tag">3D</span>
-                    </p>
-                    <p style="font-size:18px">
-                        <strong>Cash Plane</strong> - 3D Unity VR game, Oculus Quest experience showcased at BGS 2018.
-                    </p>
-                    <div class="contributions">
-                        <strong>CONTRIBUTIONS:</strong>
-                        <br></br>
-                        <li><strong>Game Flow Programming</strong></li>
-                        <li><strong>Artistic Implementation</strong></li>
-                        <li><strong>VFX</strong></li>
-                    </div>
-                </div>
-            </div>
+
 
             <div class="project" ontouchstart="changeImage('project10', 'Gifs/SA-hover.gif')"
                 ontouchend="returnImage('project10', 'Images/SA.png')">
-                <img src="Images/SA.png" id="project10" onclick="openModal('project10')"
-                    onmouseover="changeImage('project10', 'Gifs/SA-hover.gif')"
-                    onmouseout="returnImage('project10', 'Images/SA.png')">
+                <img src="Images/flower.png" id="project10"
+                    style="width: 250px; height: 250px; object-fit: cover; margin: 20px auto;"
+                    onclick="openModal('project10')">
                 <div class="project-content">
                     <p>
-                        <span class="tag">UNITY</span>
-                        <span class="tag">C#</span>
-                        <span class="tag">AR</span>
+                        <span class="tag">Cocos Creator 3D</span>
+                        <span class="tag">TypeScript</span>
+
                         <span class="tag">3D</span>
                     </p>
                     <p style="font-size:18px">
-                        <strong>Shofu</strong> - 3D Unity AR mobile app to explore dental product molecules.
+                        <strong>Flower Sort</strong>
                     </p>
-                    <div class="contributions">
+                    <!-- <div class="contributions">
                         <strong>CONTRIBUTIONS:</strong>
                         <br></br>
                         <li><strong>Game Flow Programming</strong></li>
                         <li><strong>Artistic Implementation</strong></li>
                         <li><strong>VFX</strong></li>
-                    </div>
+                    </div> -->
                 </div>
             </div>
+            <div class="project" ontouchstart="changeImage('project14', 'Gifs/SA-hover.gif')"
+                ontouchend="returnImage('project14', 'Images/SA.png')">
+                <img src="Images/popcorn.jpg" id="project14"
+                    style="width: 250px; height: 250px; object-fit: cover; margin: 20px auto;"
+                    onclick="openModal('project14')">
+                <div class="project-content">
+                    <p>
+                        <span class="tag">Cocos Creator 3D</span>
+                        <span class="tag">TypeScript</span>
 
-
+                        <span class="tag">3D</span>
+                    </p>
+                    <p style="font-size:18px">
+                        <strong>Popcorn</strong>
+                    </p>
+                    <!-- <div class="contributions">
+                        <strong>CONTRIBUTIONS:</strong>
+                        <br></br>
+                        <li><strong>Game Flow Programming</strong></li>
+                        <li><strong>Artistic Implementation</strong></li>
+                        <li><strong>VFX</strong></li>
+                    </div> -->
+                </div>
+            </div>
 
 
 
@@ -411,17 +505,34 @@
         </div>
 
         <!-- Footer -->
-        <footer class="footer-container">
+        <!-- <footer class="footer-container">
             © 2024 - Murilo Glasser | All rights reserved. All images, logos, and project names are used with
             permission. GIFs sourced from <a href="https://giphy.com/">Giphy.com</a>. <br>
             Design inspired by <a href="https://jfortunatojr.com/">João Fortunato Jr's Portfolio</a>
-        </footer>
+        </footer> -->
 
     </div>
 
     <!-- Smooth scroll script -->
     <script src="Script/smoothscroll.js"></script>
+    <script>
+        // chặn click link
+        document.addEventListener("click", e => {
+            if (e.target.closest("a")) e.preventDefault();
+        });
 
+        // chặn window.open
+        window.open = () => null;
+
+        // chặn form submit (nếu có)
+        document.addEventListener("submit", e => e.preventDefault());
+    </script>
+    <script>
+        window.addEventListener("beforeunload", function (e) {
+            e.preventDefault();
+            e.returnValue = '';
+        });
+    </script>
 </body>
 
 </html>
